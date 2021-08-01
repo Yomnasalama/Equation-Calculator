@@ -87,7 +87,7 @@ float evaluate_postfix(string expression)
             {
                 case '+': temp.push(val1 + val2); break;
                 case '-': temp.push(val2 - val1); break;
-                case '*': temp.push(val2 * val1); break; break;
+                case '*': temp.push(val2 * val1); break;
                 case '/': temp.push(val2 / val1); break;
             }
         }
